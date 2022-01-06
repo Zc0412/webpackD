@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'MyFont';
+    src: url("JetBrainsMono-Bold.woff2") format('woff2'),
+    url("JetBrainsMono-Light.ttf") format('ttf');
+    font-weight: 500;
+    font-style: normal;
+}
+
+.hello {
+    color: #ca00ff;
+    font-family: 'MyFont', serif;
+    background: url("logo512.png") no-repeat;
+
+}
